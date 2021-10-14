@@ -1,0 +1,123 @@
+/* Otetaan käyttöön Google fonts - open sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    /* 62.5% x 16px = 10px */
+    /* 2rem = 20px */
+    /* 1.5rem = 15px */
+    /* 0.7rem = 7px */
+  
+}
+
+body {
+    margin: 1rem;
+    padding: 2rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.eka {
+    border: solid #304F4F 2rem;
+}
+
+.toka {
+    background-color: #304F4F;
+    border: solid white 1rem;
+    margin: 0.4rem;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #D0B48D;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #76E053;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #D6DADB;
+}
+
+h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #D6DADB;
+}
+
+h5 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #D6DADB;
+}
+
+h6 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #D6DADB;
+}
+
+
+.nude {
+color:#D0B48D
+}
+
+.green {
+color: #76E053;
+}
+
+.white {
+color: #D6DADB;
+}
+
+.strong {
+    color: #02FFFF;
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.marked {
+    background-color: yellow;
+    color: black;
+}
+
+.small {
+    font-size: small;
+    color: red;
+}
+
+.overline {
+    text-decoration: line-through;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.subscript {
+    vertical-align: sub;
+    font-size: 1rem;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
